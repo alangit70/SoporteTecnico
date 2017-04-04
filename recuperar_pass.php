@@ -24,8 +24,8 @@
             <label for="inputUsuario" class="sr-only">usuario</label>
             <input type="text" id="inputUsuario" class="form-control" placeholder="Ingresa tu usuario" required autofocus>
                       
-            <label for="inputpass" class="sr-only">password</label>
-            <input type="password" id="inputpass" class="form-control" placeholder="Ingresa tu direccion de correo" required autofocus>
+            <label for="inputpass" class="sr-only">email</label>
+            <input type="email" id="inputpass" class="form-control" placeholder="Ingresa tu direccion de correo" required autofocus>
                         
             <button class="btn btn-lg btn-primary btn-block boton" type="submit" style="">Enviar</button>
         </form>
