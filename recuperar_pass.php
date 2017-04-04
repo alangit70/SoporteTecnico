@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Login</title>
+    <title>Recuperar Password</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/signin.css" rel="stylesheet">
 
@@ -19,17 +19,15 @@
     <div class="container">
 
         <form class="form-signin">
-            <center><h2 class="form-signin-heading">LOGIN</h2></center>
+            <center><h2 class="form-signin-heading">¿Olvidaste tu password?</h2></center>
 
             <label for="inputUsuario" class="sr-only">usuario</label>
-            <input type="text" id="inputUsuario" class="form-control" placeholder="Usuario" required autofocus>
+            <input type="text" id="inputUsuario" class="form-control" placeholder="Ingresa tu usuario" required autofocus>
                       
             <label for="inputpass" class="sr-only">password</label>
-            <input type="password" id="inputpass" class="form-control" placeholder="Password" required autofocus>
+            <input type="password" id="inputpass" class="form-control" placeholder="Ingresa tu direccion de correo" required autofocus>
                         
-            <button class="btn btn-lg btn-primary btn-block boton" type="submit" style="">Entrar</button>
-
-            <a href="recuperar_pass.php">Recuperar Password</a>
+            <button class="btn btn-lg btn-primary btn-block boton" type="submit" style="">Enviar</button>
         </form>
 
     </div>
